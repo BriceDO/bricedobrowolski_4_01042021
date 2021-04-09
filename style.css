@@ -18,9 +18,6 @@ body {
     font-style: italic;
 }
 
-.row{
-    position: sticky;
-}
 
 a,
 button {
@@ -668,6 +665,7 @@ a {
     font-family: "helvetica";
     font-weight: 400;
     color: #0B0404!important;
+    font-size: 16px;
 }
 
 .container {
@@ -693,7 +691,7 @@ a {
 }
 
 p {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
