@@ -18,6 +18,10 @@ body {
     font-style: italic;
 }
 
+.row{
+    position: sticky;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -787,7 +791,7 @@ h4 {
 }
 
 .tc-white {
-    color: #CD4D12!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
