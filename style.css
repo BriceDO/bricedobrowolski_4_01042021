@@ -18,6 +18,7 @@ body {
     font-style: italic;
 }
 
+.nav-titre{color: white !important;}
 
 a,
 button {
@@ -325,7 +326,7 @@ a:hover {
 
 .col-sm-4{
     font-size: 16px;
-    line-height: 25px;
+    line-height: 30px;
 }
 
 .row{
@@ -673,7 +674,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #0B0404!important;
+    color: black!important;
     font-size: 16px;
 }
 
@@ -764,6 +765,7 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+    margin-bottom: 40px;
 }
 
 .portfolio-thumb {
@@ -977,7 +979,6 @@ h4 {
     }
 
     li{
-        display: flex;
         align-items: center;
     }
     .dropdown .dropdown a .caret {
@@ -1074,7 +1075,6 @@ h4 {
     }
 
     .social{
-        display: flex;
         justify-content: space-around;
         margin: 10px;
     }
