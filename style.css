@@ -678,6 +678,10 @@ a {
     font-size: 16px;
 }
 
+.form-h2{
+    
+}
+
 .container {
     max-width: 1000px;
 }
@@ -826,6 +830,8 @@ h4 {
 
 .ltc-white {
     color: #FFFFFF!important;
+    font-size: 23px;
+
 }
 
 .ltc-white:hover {
