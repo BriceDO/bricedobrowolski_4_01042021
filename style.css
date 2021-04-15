@@ -22,7 +22,6 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
 }
 
 a:hover {
@@ -324,7 +323,10 @@ a:hover {
     min-width: 100px;
 }
 
-.col-sm-4{font-size: 16px;}
+.col-sm-4{
+    font-size: 16px;
+    line-height: 25px;
+}
 
 .row{
     margin-right: 0px;
@@ -481,9 +483,6 @@ nav .caret {
     background: rgba(0, 0, 0, .3);
 }
 
-button {
-    outline: none!important;
-}
 
 .btn-rd {
     border-radius: 40px;
