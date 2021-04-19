@@ -53,9 +53,9 @@
 	<!-- Principal conteneur -->
 	<div class="page-container">
 		<!-- bloc-0-header -->
-		<header role="banner" class="bloc bgc-white l-bloc " id="bloc-0">
+		<header class="bloc bgc-white l-bloc " id="bloc-0">
 			<div class="container bloc-sm">
-				<nav role="navigation" class="navbar row">
+				<nav class="navbar row">
 					<div class="navbar-header">
 						<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png"
 								alt="logo-texte La Chouette Agence" height="40" /></a>
@@ -78,7 +78,7 @@
 		</header>
 		<!-- bloc-0-header END -->
 		<!-- bloc-1-presentation-->
-		<main role="main">
+		<main>
 			<div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax"
 				id="bloc-6">
 				<div class="container bloc-lg">
@@ -96,7 +96,7 @@
 			<!-- bloc-2-formulaire -->
 			<div class="bloc bgc-white l-bloc" id="bloc-7">
 				<div class="container bloc-lg wrapper-contact ">
-					<form role="form" id="form" class="form" id="form" novalidate
+					<form class="form" novalidate
 						success-msg="Votre message a été envoyé." action="contact@lachouetteagence.fr" method="post"
 						fail-msg="Votre message n'a pas été envoyé. Nous vous invitons à recommencer plus tard.">
 
@@ -113,7 +113,7 @@
 								class="form-control" /> <br>
 
 							<label for="localité">Localisation</label> :
-							<input type="input" id="localité" name="localité" placeholder="Ex: Paris"
+							<input type="text" id="localité" name="localité" placeholder="Ex: Paris"
 								class="form-control" /> <br>
 						</fieldset>
 
@@ -133,7 +133,8 @@
 							<br>
 							<br>
 							<label for="precisions">Si "Autre", veuillez préciser :</label>
-							<input name="precisions" id="precisions" cols="40" rows="4"></textarea>
+							<input type="text" id="precisions" name="precisions" placeholder="Ex: Dans le journal..."
+							class="form-control">
 						</fieldset>
 
 						<fieldset>
@@ -143,9 +144,9 @@
 							<label for="message">Dites-nous tout sur votre projet avec les détails nécessaires :</label>
 							<textarea id="message" class="form-control" rows="6" cols="60"></textarea>
 						</fieldset>
-						<input type="submit" form="form"
+						<input type="submit"
 							class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine button-form" id="cta-hero"
-							type="submit" value="Envoyer"></input>
+						 value="Envoyer">
 					</form>
 
 
@@ -162,10 +163,11 @@
 						</div>
 						<h2>Nos coordonnées</h2>
 						<div class="adresse">
-							<p>Adresse mail : contact@lachouetteagence.com<br>Téléphone : 00.00.00.00.00</p>
+							<p>Adresse mail : contact@lachouetteagence.com<br>Téléphone : 06.00.00.00.00</p>
 						</div>
 					</aside>
 				</div>
+			</div>
 		</main>
 		<!-- bloc-2-formulaire END -->
 

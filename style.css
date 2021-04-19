@@ -715,11 +715,13 @@ h4 {
 .btn-atomic-tangerine {
     background: #0B0C10;
     color: #74C3BE!important;
+    border: 2px black solid;
 }
 
 .btn-atomic-tangerine:hover {
     background: white!important;
     color: black!important;
+    border: 2px black solid;
 }
 
 .ltc-white {
@@ -732,19 +734,6 @@ h4 {
 .ltc-white:hover {
         border-bottom: 3px solid black;
     }
-
-.ltc-atomic-tangerine {
-    color: #c27956!important;
-}
-
-.ltc-atomic-tangerine:hover {
-    color: #c27956!important;
-}
-
-.icon-dark-slate-blue {
-    color: #364577!important;
-    border-color: #364577!important;
-}
 
 .bg-dots-bg {
     background-image: url("img/dots-bg.png");
@@ -776,17 +765,6 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-    .b-parallax {
-        background-attachment: scroll;
-    }
-}
-
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
-    .b-parallax {
-        background-attachment: scroll;
-    }
-}
 
 @media (max-width: 991px) {
     .container {
@@ -971,14 +949,5 @@ h4 {
         padding-right: 0;
     }
 
-    .maps{
-        display: none;
-    }
-}
-
-
-@media (max-width: 767px) {
-    .bloc-mob-center-text {
-        text-align: center;
-    }
+    .maps{display: none;}
 }
